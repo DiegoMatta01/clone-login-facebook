@@ -1,0 +1,111 @@
+/* form -> font-family: Helvetica, Arial, sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', 'sans-serif';
+}
+
+/* MAIN */
+/* LOGO */
+main {
+    background-color: #f2f4f7;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px
+}
+
+.logo-and-text img {
+    display: block;
+}
+
+.logo-and-text p {
+    font-size: 28px;
+    width: 500px;
+}
+
+/* FORM */
+
+form {
+    background-color: white;
+    padding: 16px 15px 24px;
+    width: 396px;
+    border-radius: 8px;
+}
+
+form > * {
+    width: 100%;
+}
+
+.form-and-text input[type="text"], input[type="password"] {
+    border: 1px solid rgb(221, 223, 226);
+    border-radius: 6px;
+    padding: 16px 15px;
+    font-size: 17px;
+    display: block;
+}
+
+.form-and-text button {
+    display: block;
+}
+
+form > button, input {
+    margin-bottom: 12px;
+}
+
+form .btn-login {
+    background-color: rgb(8, 102, 255);
+    font-weight: 700;
+    line-height: 48px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+}
+
+form a {
+    color: #0866ff;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+}
+
+form hr {
+    margin: 20px 0;
+    height: 1px;
+    background-color: #dadde1;
+    border: 0;
+}
+
+form .btn-register {
+    background-color: #42b72a;
+    font-weight: 700;
+    line-height: 48px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 17px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto 12px;
+}
+
+.form-and-text p {
+    font-size: 14px;
+    margin-top: 28px;
+    width: 396px;
+    text-align: center;
+}
+
+.form-and-text p a {
+    text-decoration: none;
+    color: #1C1E21;
+    font-weight: 600;
+}
