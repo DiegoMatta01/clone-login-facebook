@@ -1,4 +1,4 @@
-/* form -> font-family: Helvetica, Arial, sans-serif; */
+/* Author: Diego Matta */
 
 *{
     margin: 0;
@@ -18,11 +18,19 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px
+    gap: 85px
+}
+
+.logo-and-text {
+    margin-bottom: 65px;
+    
 }
 
 .logo-and-text img {
     display: block;
+    margin-bottom: 20px;
+    margin-left: -5px;
+    
 }
 
 .logo-and-text p {
@@ -37,18 +45,33 @@ form {
     padding: 16px 15px 24px;
     width: 396px;
     border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
 }
 
 form > * {
     width: 100%;
 }
 
-.form-and-text input[type="text"], input[type="password"] {
+.form-and-text input {
     border: 1px solid rgb(221, 223, 226);
     border-radius: 6px;
     padding: 16px 15px;
     font-size: 17px;
     display: block;
+}
+
+.form-and-text input:focus {
+    caret-color: #0866ff;
+    border: 1px solid #0866ff;
+    outline: none;
+}
+
+.form-and-text input::placeholder {
+    color: rgba(136, 136, 136, 0.9);
+}
+
+.form-and-text input:focus::placeholder {
+    color: rgba(136, 136, 136, 0.5);
 }
 
 .form-and-text button {
@@ -67,6 +90,12 @@ form .btn-login {
     border-radius: 6px;
     color: white;
     font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+}
+
+form .btn-login:hover {
+    background-color: #1484fc; 
 }
 
 form a {
@@ -76,6 +105,10 @@ form a {
     text-align: center;
     display: block;
 }
+
+form a:hover {
+    text-decoration: underline;
+} 
 
 form hr {
     margin: 20px 0;
@@ -95,6 +128,12 @@ form .btn-register {
     width: 50%;
     text-align: center;
     margin: 0 auto 12px;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+}
+
+form .btn-register:hover {
+    background-color: #2f971a; 
 }
 
 .form-and-text p {
@@ -108,4 +147,40 @@ form .btn-register {
     text-decoration: none;
     color: #1C1E21;
     font-weight: 600;
+}
+
+/* FOOTER  */
+
+footer {
+    padding: 40px 180px;
+}
+
+footer a {
+    font-size: 12px;
+    color: #8A8D91;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    width: 30px;
+    height: 20px;
+}
+
+footer hr {
+    background-color: #dddfe2;
+    height: 1px;
+    border: 0;
+    margin: 8px 0;
+}
+
+.languages > :not(:first-child) {
+    padding-left: 10px;
+}
+
+.informations > :not(:first-child) {
+    padding-left: 20px;
 }
