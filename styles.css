@@ -18,7 +18,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 85px
+    gap: 85px;
 }
 
 .logo-and-text {
@@ -149,6 +149,10 @@ form .btn-register:hover {
     font-weight: 600;
 }
 
+.form-and-text p a:hover {
+    text-decoration: underline;
+}
+
 /* FOOTER  */
 
 footer {
@@ -168,6 +172,8 @@ footer a:hover {
 footer img {
     width: 30px;
     height: 20px;
+    cursor: pointer;
+    vertical-align: middle;
 }
 
 footer hr {
@@ -183,4 +189,21 @@ footer hr {
 
 .informations > :not(:first-child) {
     padding-left: 20px;
+}
+
+@media screen and (max-width: 1020px) {
+    main {
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    main {
+        flex-direction: column;
+        padding-top: 280px;
+    }
+
+    footer {
+        margin-top: 300px;
+    }
 }
