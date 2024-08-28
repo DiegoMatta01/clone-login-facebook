@@ -1,0 +1,3 @@
+Project focused on the view in larger screens, so I put very little effort into responsive part.![facebook-clone-1](https://github.com/user-attachments/assets/a0414954-78ad-4a69-9a7c-9fe0a35a7864)
+=================================================================================================================================================================================== ![facebook-clone-2](https://github.com/user-attachments/assets/79afdded-ff4f-43f8-8362-2d0cd6121da8)
+===================================================================================================================================================================================  ![facebook-clone-3](https://github.com/user-attachments/assets/2a1ab2e5-babe-4d1c-ad46-f14463c830eb)
